@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mainColorPink {
+    color: #f16d7f;
+}
+
+.center {
+    padding: 0 calc(50% - 570px);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    box-shadow: 0px 0px 10px 0px #ececec;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo_img {
+    margin-right: 13px;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+}
+.header_form {
+    display: flex;
+    align-items: center;
+    margin-left: 37px;
+}
+.header_right {
+    display: flex;
+    align-items: center;
+}
+.header_cart {
+    margin-right: 26px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.menu_link {
+    font-size: 14px;
+    font-weight: bold;
+    color: #222222;
+    text-align: left;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding: 20px;
+    display: block;
+}
+
+.promo {
+    background-color: #e8e8e8;
+}
+
+.promo_content {
+    display: flex;
+    align-items: center;
+
+    height: 614px;
+    background-image: url("img/promo_back.png");
+    background-repeat: no-repeat;
+    background-position: center -51px;
+}
+
+.promo_text {
+    border-left: 12px solid #f16d7f;
+    padding-left: 12px;
+}
+
+.promo_h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #222222;
+    text-align: left;
+    letter-spacing: 0.03em;
+}
+.promo_h3 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #222222;
+    text-align: left;
+    letter-spacing: 0.03em;
+}
+.bright_promo_text {
+    color: #f16d7f;
+}
+.bright_offer_text {
+    color: #f16d7f;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+/*OFFER BLOCK*/
+.offer {
+    padding-top: 98px;
+    padding-bottom: 98px;
+}
+
+.offer_gallery {
+    display: flex;
+}
+
+.offer_column_left {
+    display: flex;
+    flex-direction: column;
+
+    padding-right: 10px;
+}
+.offer_column_right{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+
+}
+
+.offer_column_left,
+.offer_column_right {
+
+}
+
+.offer_hotDeal_img {
+    height: 542px;
+    width: 560px;
+
+}
+.offer_luxirous_img {
+    height: 261px;
+    width: 560px;
+
+}
+.offer_discount_img {
+    height: 261px;
+    width: 560px;
+}
+.offer_arrivals_img {
+    height: 542px;
+    width: 560px;
+}
+
+.offer_luxirous_block,
+.offer_arrivals_block {
+    margin-top: 20px;
+}
+
+.relative {
+    position: relative;
+}
+.offer_title {
+    position: absolute;
+    top: 26px;
+    left: 0px;
+    width: 144px;
+    height: 58px;
+    background-color:  #ffffff;
+    padding: 16px 20px;
+}
+
+.offer_title_wide {
+    position: absolute;
+    top: 26px;
+    left: 0px;
+    width: 196px;
+    height: 58px;
+    background-color:  #ffffff;
+    padding: 16px 20px;
+}
+
+.offer_title_header3 {
+    font-size: 18px;
+    font-weight: 900;
+    color: #222222;
+    text-align: left;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.offer_title_header2 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #f16d7f;
+    text-align: left;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+/*PURCHASE BLOCK / IMAGE GALLERY*/
+.purchase {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 113px;
+}
+
+.purchase_title {
+    margin-bottom: 60px;
+}
+
+.purchase_title_header {
+    margin-bottom: 16px;
+}
+
+.purchase_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.purchase_item {
+    width: 261px;
+    height: 342px;
+    margin-bottom: 60px;
+}
+
+.purchase_item_title {
+    font-size: 13px;
+    color: #222222;
+    text-align: left;
+    text-transform: uppercase;
+
+    margin: 19px 0 8px 14px;
+}
+.purchase_item_price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f16d7f;
+    text-align: left;
+    text-transform: uppercase;
+
+    margin: 8px 0 17px 14px;
+}
+
+/* PURCHASE BLOCK / BUTTON */
+
+.purchase_button {
+    background-color: #f16d7f;
+    color: white;
+
+    text-decoration: none;
+    display: inline-block;
+    padding: 18px 24px;
+    position: relative;
+    letter-spacing: 0.03em;
+
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+
+}
