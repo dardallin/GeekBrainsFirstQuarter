@@ -428,7 +428,6 @@ a {
     left: 39px;
 }
 
-
 .banner_title {
     font-size: 54px;
     font-weight: bold;
@@ -460,7 +459,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .banner_offer {
@@ -468,7 +466,6 @@ a {
     flex-direction: row;
 
     margin: 33px 19px;
-
 }
 
 .banner_leftSide_description {
@@ -494,3 +491,24 @@ a {
     line-height: 24px;
 }
 
+/* FEEDBACK BLOCK */
+.feedback {
+    margin: 97px 0;
+}
+
+.feedback_content {
+    display: flex;
+    align-items: center;
+    height: 438px;
+    background-image: url(img/feedback_back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.review {
+    display: flex;
+}
+
+.review img {
+    width: 83px;
+}
