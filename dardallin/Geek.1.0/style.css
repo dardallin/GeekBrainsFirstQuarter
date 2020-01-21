@@ -404,5 +404,90 @@ a {
     text-align: center;
     font-size: 16px;
     font-weight: bold;
+}
+
+/* BANNER BLOCK */
+
+.banner {
+    display: flex;
+    flex-direction: row;
+
+    height: 529px;
+}
+
+.banner_leftSide {
+    width: 767px;
+
+    position: relative;
+}
+
+.banner_description {
+    position: absolute;
+
+    top: 146px;
+    left: 39px;
+}
+
+
+.banner_title {
+    font-size: 54px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: left;
+    letter-spacing: 0.03em;
+}
+.banner_title span {
+    font-size: 54px;
+    font-weight: bold;
+    color: #f16d7f;
+    text-align: left;
+    letter-spacing: 0.03em;
+}
+
+.banner_moreInfo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: left;
+    letter-spacing: 0.03em;
+    -webkit-transform: scale(0.89);
+    -ms-transform: scale(0.89);
+    transform: scale(0.89);
+}
+
+.banner_rightSide {
+    background-color: #222224;
+}
+
+.banner_offer {
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 36px;
+    margin-right: 26px;
+    margin-top: 48px;
+}
+
+.banner_leftSide_description {
+    margin-left: 33px;
+    margin-bottom: 27px;
 
 }
+
+.banner_rightSide_title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fbfbfb;
+    text-align: left;
+    letter-spacing: 0.03em;
+}
+
+.banner_rightSide_text {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fbfbfb;
+    text-align: left;
+    letter-spacing: 0.03em;
+    line-height: 24px;
+}
+
