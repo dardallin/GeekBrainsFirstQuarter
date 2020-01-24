@@ -496,6 +496,7 @@ a {
 
 .feedback_content {
     display: flex;
+    flex-wrap: wrap;
 
     height: 438px;
     background-image: url(img/feedback_back.png);
@@ -612,4 +613,65 @@ a {
     text-align: center;
     font-size: 13px;
     font-weight: bold;
+}
+
+/* NAVIGATION BLOCK */
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+
+    margin: 97px 0;
+}
+.navigation_brand {
+    display: flex;
+    flex-direction: column;
+
+
+    width: 430px;
+}
+
+.navigation_brand .logo {
+    width: 170px;
+}
+
+.navigation_paragraph {
+    margin-top: 29px;
+
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(137, 137, 137, 1);
+    text-align: left;
+    letter-spacing: 0.03em;
+    line-height: 24px;
+}
+
+.navigation_table th {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(241, 109, 127, 1);
+    text-align: left;
+    letter-spacing: 0.03em;
+    line-height: 26px;
+}
+.navigation_table table {
+    padding-left: 40px;
+}
+
+
+.navigation_table td {
+    height: 49px;
+    width: 220px;
+
+}
+
+.navigation_table td a {
+    font-size: 16px;
+    color: rgba(137, 137, 137, 1);
+    text-align: left;
+    letter-spacing: 0.03em;
+    line-height: 59px;
 }
