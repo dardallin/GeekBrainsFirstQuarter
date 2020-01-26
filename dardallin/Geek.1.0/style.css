@@ -766,16 +766,6 @@ summary::-webkit-details-marker {display: none}
     height: 79px;
 }
 
-.footer_link_colored {
-    background-color: rgba(241, 109, 127, 1);
-    display: inline-block;
-    height: 32px;
-    width: 32px;
-
-    margin: 4px;
-
-}
-
 .footer_link {
     position: relative;
     display: inline-block;
@@ -785,10 +775,21 @@ summary::-webkit-details-marker {display: none}
 
     margin: 4px;
 }
-
-.social_icons img {
-    position: absolute;
-    top: 8px;
-    left: 8px;
+.footer_link:hover {
+    background-color: rgba(241, 109, 127, 1);
 }
 
+.social_icons {
+    display: flex;
+}
+.social_icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social_icons i {
+    color: rgba(178, 178, 178, 1);
+}
+.social_icons a:hover i {
+    color: rgba(247, 247, 248, 1);
+}
