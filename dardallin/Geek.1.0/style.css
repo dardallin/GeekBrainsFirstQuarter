@@ -680,14 +680,35 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    text-align: center;
+    align-items: center;
     background-color: rgba(230, 230, 230, 1);
 
     height: 79px;
 }
 
-.social_icons a {
+.footer_link_colored {
+    background-color: rgba(241, 109, 127, 1);
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+
+    margin: 4px;
+
+}
+
+.footer_link {
+    position: relative;
+    display: inline-block;
     height: 32px;
     width: 32px;
     background-color: rgba(255, 255, 255, 1);
+
+    margin: 4px;
 }
+
+.social_icons img {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
