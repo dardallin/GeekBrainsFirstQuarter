@@ -139,7 +139,7 @@ summary::-webkit-details-marker {display: none}
     font-size: 15px;
 }
 
-.header_right:hover .drop {
+.cart_image_block:hover .drop {
     display: flex;
     top: 70px;
 }
