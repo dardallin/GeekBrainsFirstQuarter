@@ -140,6 +140,13 @@ a {
     justify-content: center;
     list-style: none;
 }
+.menu_list {
+    position: relative;
+}
+.menu_list:hover .drop {
+    display: flex;
+}
+
 .menu_link {
     font-size: 14px;
     font-weight: bold;
@@ -149,6 +156,52 @@ a {
     text-transform: uppercase;
     padding: 20px;
     display: block;
+}
+
+    /*MENU BLOCK / DROP MENU*/
+.drop {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 12px 20px;
+    border: 1px solid rgba(236, 236, 236, 1);
+    display: none;
+    position: absolute;
+    top: 53px;
+}
+
+.drop_last {
+    right: 0;
+}
+
+.drop_flex {
+    width: 234px;
+    margin-right: 46px;
+}
+.drop_flex:last-of-type {
+    margin-right: 0;
+}
+.drop_h3 {
+    font-size: 14px;
+    color: rgba(35, 35, 35, 1);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid rgba(232, 232, 232, 1);
+}
+.ul_drop {
+    list-style-type: none;
+}
+.drop_link {
+    font-size: 14px;
+    color: rgba(100, 100, 100, 1);
+    text-align: right;
+    letter-spacing: 0.03em;
+    line-height: 28px;
+}
+.drop_link:hover {
+    color: rgba(241, 109, 127, 1);
 }
 
 /*PROMO BLOCK*/
